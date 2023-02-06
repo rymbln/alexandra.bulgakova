@@ -1,10 +1,11 @@
 ######################## default configuration ####################
-baseURL = "https://example.com"
+baseURL = "https://rymbln.github.io/alexandra.bulgakova/"
 languageCode = "ru-ru"
 title = "Alexandra Bulgakova"
 theme = "influencer-hugo"
 summaryLength = "10"
 paginate = 6
+publishDir = "docs"
 
 ############################# Plugins ##############################
 [params.plugins]
