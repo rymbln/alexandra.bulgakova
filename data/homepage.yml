@@ -1,0 +1,241 @@
+########################## Banner #############################
+banner:
+  enable : true
+  writter : "Александра Булгакова"
+  title : "Когда меня вскрывали в морге"
+  image : "images/about/book.jpg"
+  content : "Обаятельный детектив Икабод Харт с успехом расследует самые запутанные убийства."
+  price : "14.99"
+
+######################## Book Preview ##########################
+preview:
+  enable : true
+  pagePreview:
+    # page preview loop
+    - image : "images/about/book_page.png"
+    - image : "images/about/book_page2.png"
+    - image : "images/about/book_page.png"
+
+  title : "Что внутри?"
+  content : "
+  Обаятельный детектив Икабод Харт с успехом расследует самые запутанные убийства. Теперь ему предстоит вычислить человека, который совершил множество жестоких преступлений и в полицейских отчётах значится как Хирург. Судя по совершенным убийствам, Хирург - обычный шизофреник, которому доставляет удовольствие издеваться над собственными жертвами, считают все, в том числе и возлюбленная детектива, патологоанатом Энжи... Но так ли это на самом деле, и кто скрывается под маской хладнокровного убийцы?.. Икабод Харт смело идёт по следу преступника.
+Напряженный детективный триллер, который навсегда изменит ваше представление о людях...
+  "
+
+  inside:
+    # book inside item loop
+    - insideItem : "Классический нуар"
+    - insideItem : "Яркие образы"
+    - insideItem : "Неожиданная развязка"
+
+  # button
+  button:
+    enable : true
+    label : "Купить в Читай-городе"
+    link : "https://www.chitai-gorod.ru/product/kogda-menya-vskryvali-v-morge-2486079"
+
+
+########################## Service ##############################
+service:
+  enable : false
+  serviceItem:
+    # service item loop
+    - title : "Experience"
+      icon : "ti-microphone" # themify icon pack : https://themify.me/themify-icons
+      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+      
+    # service item loop
+    - title : "Marketing Goals"
+      icon : "ti-rocket" # themify icon pack : https://themify.me/themify-icons
+      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+      
+    # service item loop
+    - title : "Targetting Vission"
+      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
+      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+
+
+######################### Quote #############################
+quote:
+  enable : true
+  quote: "Эта книга - новое видение детектива, в котором отсутствуют какие-либо ограничения..."
+  quoteBy: "John Smith"
+
+
+######################### Chapters ##########################
+chapters:
+  enable : false
+  title : "Full Chapter Overview"
+  subtitle : "Libero atque veniam molestiae ipsa aliquid quam facilis dolore."
+  chapter:
+    # chapter preview loop
+    - title : "Chapter 1"
+      content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+
+    # chapter preview loop
+    - title : "Chapter 2"
+      content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+      
+    # chapter preview loop
+    - title : "Chapter 3"
+      content : "Calculating your cost of living, with an overview of NYC neighborhoods and average rent prices. Includes tips on when to move to NYC."
+      
+    # chapter preview loop
+    - title : "Chapter 4"
+      content : "Calculating your cost of living, with an overview of NYC neighborhoods and average rent prices. Includes tips on when to move to NYC."
+      
+    # chapter preview loop
+    - title : "Chapter 5"
+      content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+      
+    # chapter preview loop
+    - title : "Chapter 6"
+      content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+
+
+########################## Revews ###########################
+reviews:
+  enable : true
+  title : "Отзывы читателей"
+  subtitle : "Поделитесь своим мнением раньше всех!"
+  review:
+    # review item loop
+    - name : "Barrow Hasi"
+      image : "images/client/test-1.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "five" # rating from one to five
+      content: "Роман похож на американские горки: страшно интересно!"
+      
+    # review item loop
+    - name : "Nilam Arthur"
+      image : "images/client/test-2.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "four" # rating from one to five
+      content : "Я с первых страниц влюбилась в главного героя - красавец, умница, настоящий мужчина и прекрасный детектив... Но подобного финала совершенно не ожидала. Восхищена!"
+      
+    # review item loop
+    - name : "Barrow Hasi"
+      image : "images/client/test-1.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "five" # rating from one to five
+      content : "Всем, кому нравятся детективы, настоятельно советую прочитать! Тем, кто далек от жанра, тоже советую прочитать, потому что, прочитав, вы его полюбите так же, как и я!"
+      
+    # review item loop
+    - name : "Nilam Arthur"
+      image : "images/client/test-2.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "four" # rating from one to five
+      content : "Я с первых страниц влюбилась в главного героя - красавец, умница, настоящий мужчина и прекрасный детектив... Но подобного финала совершенно не ожидала. Восхищена!"
+
+
+#################################### device ################################
+devices:
+  enable : true
+  title : "Читайте на вашем любимом девайсе!"
+  content : "Вы можете заказать не только печатную версию, но и электронную! Это спасет деревья и позволит вам читать где угодно и когда угодно - на компьютере, телефоне, читалке, дома, в дороге, на работе!"
+  image : "images/about/ipad.jpg"
+  feature:
+    # feature item loop
+    - title : "Бонусная программа"
+      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
+      content : "Позволит сэкономить на будущих покупках."
+      
+    # feature item loop
+    - title : "Встроенная аудиоверсия"
+      icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
+      content : "Возможность погрузиться с помощью звука."
+
+
+  # button
+  button:
+    enable : true
+    label : "Скачать на Labiring"
+    link : "https://www.labirint.ru/books/501842/"
+
+######################################## author #############################
+author:
+  enable : true
+  image : "images/about/photo.jpg"
+  name : "Александра Булгакова"
+  designation : "меломан, филолог, мизантроп"
+  content : "Увлекается искусством бартендинга и гонзо. Экспериментируя с жанрами, в итоге пришла к детективу. Работая над книгой, автор целенаправленно старалась нарушить все существующие правила написания детективного романа, поскольку считает нецелесообразным загонять искусство в рамки."
+
+  # signature
+  signature : "images/about/2.png"
+
+
+################################ Awards #####################################
+awards:
+  enable : true
+  title : "We are award winner best selling book among the top rated 10 books!"
+  award:
+    # award item loop
+    - title : "International award"
+      image : "images/about/award-1.png"
+      
+    # award item loop
+    - title : "Meritorious award"
+      image : "images/about/award-2.png"
+      
+    # award item loop
+    - title : "Best book award"
+      image : "images/about/award-3.png"
+      
+    # award item loop
+    - title : "Excellence award"
+      image : "images/about/award-4.png"
+
+
+############################# Other books ###############################
+otherBooks:
+  enable : true
+  title : "Others books by the author"
+  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique
+            facere quas blanditiis."
+  book:
+    # books loop
+    - image : "images/about/b-1.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-2.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-3.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-4.jpg"
+      link : "#"
+
+################################ Blog ###################################
+blog:
+  enable : true
+  title : "Мои идеи и статьи"
+  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
+  # blog post comes from 'content/blog'
+
+################################# Contact ##############################
+contact:
+  enable : true
+  title : "Контакты"
+  subtitle : "Whether you have questions or you would just like to say hello, contact us.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!"
+  contactItem:
+    # contact Item loop
+    - title : "Contact Quickly"
+      icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "+23-68017684"
+        
+    # contact Item loop
+    - title : "Email"
+      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "startor@support.com"
+        
+    # contact Item loop
+    - title : "Location"
+      icon : "ti-location-pin" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "397 Lake forest drive street USA"
